@@ -31,6 +31,9 @@ body {
   justify-content: flex-start;
   z-index: 99;
 }
+#main h1:hover{
+  color: #99eb56;
+}
 #nav img {
   height: 4.5vw;
   border-radius: 50%;
@@ -137,4 +140,36 @@ video {
   to {
     transform: translateX(-100%);
   }
+}
+#about-me {
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  justify-content: space-around;
+  background-color: #000;
+  opacity: 70%;
+}
+#about-me img {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+#about-me-in {
+  width: 50%;
+  text-align: center;
+}
+#about-me-in h3 {
+  font-size: 54px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#about-me-in p {
+  font-size: 20px;
+  line-height: 26px;
 }
