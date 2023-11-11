@@ -31,7 +31,7 @@ body {
   justify-content: flex-start;
   z-index: 99;
 }
-#main h1:hover{
+#main h1:hover {
   color: #99eb56;
 }
 #nav img {
@@ -130,7 +130,7 @@ video {
   color: #5e5505ab;
   -webkit-text-stroke: 2px #28d345;
 }
-#scroller h4:hover{
+#scroller h4:hover {
   color: #99eb56;
 }
 @keyframes scroll {
@@ -174,3 +174,28 @@ video {
   line-height: 26px;
 }
 /*card part code*/
+#cards-container {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70px;
+  background-image: cover;
+}
+.card {
+  height: 80%;
+  width: 28%;
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+}
+#card1 {
+  background-image: url(ap.jpg);
+}
+#card2 {
+  background-image: url(bp-.jpg);
+}
+#card3 {
+  background-image: url(cp.jpg);
+}
