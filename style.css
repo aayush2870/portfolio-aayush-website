@@ -195,11 +195,11 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(ap.jpg);
+  background-image:ap.jpg
 }
 #card2 {
-  background-image: url(bp-.jpg);
+  background-image: bp-.jpg
 }
 #card3 {
-  background-image: url(cp.jpg);
+  background-image: cp.jpg
 }
